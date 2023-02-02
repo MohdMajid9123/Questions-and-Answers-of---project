@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js project</title>
+    <link rel="shortcut icon" href="images/power.ico" type="image/x-icon" />
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="CSS-ALL/majid.css" />
+    <!-- LINK JAVASCRIPT -->
+  </head>
+  <body>
+    <div id="background">
+      <!-- BOX SECTION -->
+      <div id="box">
+        <div>
+          <h1>Score => <span id="scores">0</span></h1>
+          <br />
+          <h2 id="question">What is 8 multiplay by 4 ?</h2>
+          <br />
+          <!-- FORM SECTION -->
+          <form id="quertionform" onsubmit="AnswerCheck(event)">
+            <input type="text" required id="answer" name="anser" size="30" />
+            <br /><br />
+            <input type="submit" value="Result" id="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="javascript/majid.js"></script>
+  </body>
+</html>
